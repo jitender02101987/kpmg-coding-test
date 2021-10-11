@@ -16,6 +16,8 @@ Steps:
 Testing Logs:
     
 1. Passing 3 mandatory parameters
+      
+      
     :~#./getMetaDataKeyComputeEngine.sh kpmg-test-question-2 kpmg-test-10102201 asia-south2-a
       
       
@@ -27,6 +29,8 @@ Testing Logs:
       
     
 2. Passing 3 mandatory and optional parameter
+      
+      
     :~#./getMetaDataKeyComputeEngine.sh kpmg-test-question-2 kpmg-test-10102201 asia-south2-a kpmg
       
       
@@ -38,6 +42,8 @@ Testing Logs:
       
     
 3. Passing 2 mandatory parameters (Failure scenario)
+      
+      
     :~#./getMetaDataKeyComputeEngine.sh kpmg-test-question-2 kpmg-test-10102201
       
       
