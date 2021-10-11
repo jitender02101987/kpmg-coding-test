@@ -16,8 +16,8 @@ fi;
 
 function getMetaDataKeyComputeEngine()
 {
-    gcloud auth activate-service-account --key-file=./account.json
-    export GOOGLE_APPLICATION_CREDENTIALS=./account.json
+    gcloud auth activate-service-account --key-file=key/account.json
+    export GOOGLE_APPLICATION_CREDENTIALS=key/account.json
     if [ -z $computeinstancekey ]
     then
       value="$(gcloud compute instances describe $computeinstancename --project=$gcpproject --format json --zone=$computeinstancezone --format='value[](metadata.items)')"
