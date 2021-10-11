@@ -21,7 +21,12 @@ function getMetaDataKeyComputeEngine()
     if [ -z $computeinstancekey ]
     then
       value="$(gcloud compute instances describe $computeinstancename --project=$gcpproject --format json --zone=$computeinstancezone --format='value[](metadata.items)')"
-      echo $value
+      if [ -z $value ]
+      then
+        printf "Details passed are incorrect.\n"
+      else
+        echo $value
+      fi
     else
       value="$(gcloud compute instances describe $computeinstancename --project=$gcpproject --zone=$computeinstancezone --format='value[](metadata.items.'$computeinstancekey')')"
       if [ -z $value ]
