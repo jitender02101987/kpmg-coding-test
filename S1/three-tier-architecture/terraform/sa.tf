@@ -4,7 +4,6 @@ resource "google_service_account" "test_sa" {
   display_name = "TestService Account"
 }
 
-# owner access
 resource "google_project_iam_member" "project_owner" {
   project = var.project_id
   role    = "roles/owner"
