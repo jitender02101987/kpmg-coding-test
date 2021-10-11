@@ -19,7 +19,6 @@ module "web_server" {
   service_account = google_service_account.test_sa.email
 }
 
-# just creating MIG, ILB needs to be created
 module "app_server" {
   source          = "../tier/app-server"
   project_id      = var.project_id
