@@ -28,4 +28,3 @@ Testing Logs:
 3. Passing 2 mandatory parameters (Failure scenario)
     :~#./getMetaDataKeyComputeEngine.sh kpmg-test-question-2 kpmg-test-10102201
       o Usage: ./getMetaDataKeyComputeEngine.sh Instance-name Project Zone should be passed
-      kumajit@pldapu16:~#vi getMetaDataKeyComputeEngine.sh
