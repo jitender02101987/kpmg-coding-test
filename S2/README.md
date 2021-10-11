@@ -17,14 +17,20 @@ Testing Logs:
     
 1. Passing 3 mandatory parameters
     :~#./getMetaDataKeyComputeEngine.sh kpmg-test-question-2 kpmg-test-10102201 asia-south2-a
-      Activated service account credentials for: [terraform-integration@kpmg-test-10102201.iam.gserviceaccount.com]
-      {'key': 'kpmg', 'value': 'question2'};{'key': 'gcp-compute', 'value': 'testing'}
+      
+      
+      **Activated service account credentials for: [terraform-integration@kpmg-test-10102201.iam.gserviceaccount.com]
+      {'key': 'kpmg', 'value': 'question2'};{'key': 'gcp-compute', 'value': 'testing'}**
     
 2. Passing 3 mandatory and optional parameter
     :~#./getMetaDataKeyComputeEngine.sh kpmg-test-question-2 kpmg-test-10102201 asia-south2-a kpmg
-      Activated service account credentials for: [terraform-integration@kpmg-test-10102201.iam.gserviceaccount.com]
-      {"kpmg":"question2"}
+      
+      
+      **Activated service account credentials for: [terraform-integration@kpmg-test-10102201.iam.gserviceaccount.com]
+      {"kpmg":"question2"}**
     
 3. Passing 2 mandatory parameters (Failure scenario)
     :~#./getMetaDataKeyComputeEngine.sh kpmg-test-question-2 kpmg-test-10102201
-      o Usage: ./getMetaDataKeyComputeEngine.sh Instance-name Project Zone should be passed
+      
+      
+      **o Usage: ./getMetaDataKeyComputeEngine.sh Instance-name Project Zone should be passed**
