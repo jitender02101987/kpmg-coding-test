@@ -19,13 +19,23 @@ Testing Logs:
 :~#python getObjectkeyValue.py
 
 Enter the object:{"a":{"b":{"c":"d"}}}
+
+
 Enter the key:"a/b/c"
+
+
 Value is:d
 
 
 :~#python getObjectkeyValue.py
+
+
 Enter the object:{"x":{"y":{"z":"a"}}}
+
+
 Enter the key:"x/y/z"
+
+
 Value is:a
 
 
