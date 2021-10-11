@@ -1,6 +1,8 @@
-variable name {}
+variable name {
+}
 
-variable short_name {}
+variable short_name {
+}
 
 variable description {
   default = ""
@@ -10,17 +12,21 @@ variable project_id {
   default = ""
 }
 
-variable region {}
+variable region {
+}
 
-variable zone {}
+variable zone {
+}
 
 variable create_target_pool {
   default = false
 }
 
-variable tag_name {}
+variable tag_name {
+}
 
-variable cluster_size {}
+variable cluster_size {
+}
 
 variable rolling_update_policy {
   #type = list
@@ -42,11 +48,14 @@ variable named_ports {
   default = []
 }
 
-variable machine_type {}
+variable machine_type {
+}
 
-variable source_image {}
+variable source_image {
+}
 
-variable startup_script {}
+variable startup_script {
+}
 
 variable metadata_key_name {
   default = "cluster-size"
