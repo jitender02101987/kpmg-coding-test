@@ -48,3 +48,22 @@ Testing Logs:
       
       
       **o Usage: ./getMetaDataKeyComputeEngine.sh Instance-name Project Zone should be passed**
+      
+4. Passing incorrect compute instance name (Failure scenraio)
+      
+      
+      :~#./getMetaDataKeyComputeEngine.sh kpmg-test-question2 kpmg-test-10102201 asia-south2-a
+      
+      
+      Activated service account credentials for: [terraform-integration@kpmg-test-10102201.iam.gserviceaccount.com]
+      
+      
+      ERROR: (gcloud.compute.instances.describe) Could not fetch resource:
+      
+      
+      - The resource 'projects/kpmg-test-10102201/zones/asia-south2-a/instances/kpmg-test-question2' was not found
+      
+      
+
+     Details passed incorrect.
+
