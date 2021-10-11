@@ -1,7 +1,3 @@
-# ==========
-# STANDARD VARIABLES
-# ==========
-
 variable "project_id" {
  type = string 
 }
